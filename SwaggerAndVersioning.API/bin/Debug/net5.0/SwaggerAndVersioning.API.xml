@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SwaggerAndVersioning.API</name>
+    </assembly>
+    <members>
+        <member name="M:SwaggerAndVersioning.API.Controllers.WeatherForecastController.Get">
+            <summary>
+            Weather Forecast 
+            </summary>
+            <remarks>List of weather forecast for the last five days</remarks>
+            <response code="200">Returns weather forecast fot the last five days</response>
+            <response code="404">Not Found, the resource could not be found</response>		
+        </member>
+        <member name="M:SwaggerAndVersioning.API.Controllers.WeatherForecastV2Controller.Get">
+            <summary>
+            Weather Forecast 
+            </summary>
+            <remarks>List of weather forecast for the last five days</remarks>
+            <response code="200">Returns weather forecast fot the last five days</response>
+            <response code="404">Not Found, the resource could not be found</response>		
+        </member>
+    </members>
+</doc>

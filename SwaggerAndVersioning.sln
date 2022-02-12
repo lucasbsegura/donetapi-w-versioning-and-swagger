@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwaggerAndVersioning.API", "SwaggerAndVersioning.API\SwaggerAndVersioning.API.csproj", "{6010161E-424F-4513-9CED-6EAFF1D5B255}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwaggerAndVersioning.API.Tests", "SwaggerAndVersioning.API.Tests\SwaggerAndVersioning.API.Tests.csproj", "{5BCC1B0F-7C52-43E7-9329-295DCFF02620}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6010161E-424F-4513-9CED-6EAFF1D5B255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6010161E-424F-4513-9CED-6EAFF1D5B255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6010161E-424F-4513-9CED-6EAFF1D5B255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6010161E-424F-4513-9CED-6EAFF1D5B255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BCC1B0F-7C52-43E7-9329-295DCFF02620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BCC1B0F-7C52-43E7-9329-295DCFF02620}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BCC1B0F-7C52-43E7-9329-295DCFF02620}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BCC1B0F-7C52-43E7-9329-295DCFF02620}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62019089-3100-41E3-B508-1A780B1E831E}
+	EndGlobalSection
+EndGlobal
